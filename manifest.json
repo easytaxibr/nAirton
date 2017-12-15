@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "nAirton",
-	"version": "1.7",
-	"description": "Troque todas as imagens do site por fotos do Airton.",
+	"name": "nEasy",
+	"version": "1.0",
+	"description": "Troque todas as imagens do site por fotos dos funcionários da Easy.",
 	"icons": {
     	"48": "icon48.png",
         "128": "icon128.png"
@@ -10,7 +10,7 @@
 	"content_scripts": [
 	    {
 	      "matches": ["*://*/*"],
-	      "js": ["jquery.js", "nAirton.js"]
+	      "js": ["jquery.js", "nEasy.js"]
 	    }
   	]
 }

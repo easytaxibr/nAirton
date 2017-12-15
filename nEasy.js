@@ -1,14 +1,14 @@
 (function ($) {
 
-    var self = $.nAirton = new function () { };
+    var self = $.nEasy = new function () { };
 
     $.extend(self, {
 
-        nAirtonBackgrounds: [
+        nEasyBackgrounds: [
             './background/airton.png'
         ],
 
-        nAirtonImgs: [
+        nEasyImgs: [
             'https://media.giphy.com/media/xUOxfn0FnRetf71v7a/giphy.gif',
             'https://media.giphy.com/media/xUNd9UkS8kpxe6eHGU/giphy.gif',
             'https://media.giphy.com/media/xUNd9C59DZjPfBVrry/giphy.gif',
@@ -80,7 +80,7 @@
 
     //Run on jQuery ready
     $(function () {
-        self.handleImages(self.nAirtonImgs, 3000);
-        self.handleLogo(self.nAirtonBackgrounds, 3000);
+        self.handleImages(self.nEasyImgs, 3000);
+        self.handleLogo(self.nEasyBackgrounds, 3000);
     });
 })(jQuery);
